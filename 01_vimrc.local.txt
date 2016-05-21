@@ -1,0 +1,30 @@
+syntax enable
+"if has('gui_running')
+"    set background=light
+"else
+"    set background=dark
+"endif
+set background=dark
+
+"colorscheme solarized
+"colorscheme molokai
+"colorscheme ir_black
+"colorscheme peaksea
+"colorscheme railcasts
+colorscheme darcula
+"colorscheme dracula
+
+if has("gui_running")
+  if has("gui_gtk2")
+    set guifont=Droid\ Sans\ Mono\ 11
+  elseif has("gui_photon")
+    set guifont=Droid\ Sans\ Mono:s11
+  elseif has("gui_kde")
+    set guifont=Droid\ Sans\ Mono/11/-1/5/50/0/0/0/1/0
+  elseif has("x11")
+    set guifont=-*-r-normal-*-*-180-*-*-m-*-*
+  else
+    set guifont=Droid_Sans_Mono:h11:cDEFAULT
+  endif
+endif
+
