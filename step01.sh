@@ -1,5 +1,7 @@
 #!/bin/sh
 
+sudo apt-get autoremove -y
+sudo apt-get install checkinstall -y
 sudo apt-get install tmux synaptic git -y
 sudo apt-get remove --purge vim vim-runtime vim-gnome vim-tiny vim-common vim-gui-common
 sudo apt-get install liblua5.1-dev luajit libluajit-5.1 python-dev ruby-dev libperl-dev mercurial libncurses5-dev libgnome2-dev libgnomeui-dev libgtk2.0-dev libatk1.0-dev libbonoboui2-dev libcairo2-dev libx11-dev libxpm-dev libxt-dev -y
@@ -30,5 +32,5 @@ sudo make install
 
 cd ..
 sudo mkdir /usr/share/vim
-sudo mkdir /usr/share/vim/vim74
-sudo cp -fr runtime/* /usr/share/vim/vim74/
+sudo mkdir /usr/share/vim/vim80/
+sudo cp -fr runtime/* /usr/share/vim/vim80/
