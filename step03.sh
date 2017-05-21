@@ -1,6 +1,8 @@
 #!/bin/sh
 
-git clone https://github.com/zenorocha/dracula-theme.git
+# Old repos
+# git clone https://github.com/zenorocha/dracula-theme.git
+git clone https://github.com/dracula/dracula-theme.git
 sudo cp dracula-theme/vim/colors/dracula.vim ~/.vim/bundle/vim-colors/colors/dracula.vim
 
 git clone https://github.com/blueshirts/darcula.git
