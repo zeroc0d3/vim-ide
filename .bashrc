@@ -154,6 +154,7 @@ if [[ -f $THEME ]]; then
     source $THEME
 fi
 
+########## CUSTOMIZE BASH ##########
 ### Path Ruby RBENV / RVM ###
 export RBENV_ROOT="$HOME/.rbenv"
 export RVM_ROOT="/usr/local/rvm"
@@ -230,3 +231,9 @@ then
 fi
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+### Set Default Shell to ZSH ###
+if [[ $- == *i* ]]; then
+    export SHELL=zsh
+    exec zsh -l
+fi
