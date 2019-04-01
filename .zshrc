@@ -98,6 +98,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+########## CUSTOMIZE BASH ##########
 ### Path Ruby RBENV / RVM ###
 export RBENV_ROOT="$HOME/.rbenv"
 export RVM_ROOT="/usr/local/rvm"
