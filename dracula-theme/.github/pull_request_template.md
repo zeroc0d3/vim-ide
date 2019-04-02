@@ -1,4 +1,5 @@
-## New Theme?
-
-Please submit an issue with a screenshot of the theme, and a link to your repository that contains the theme. If/when the theme is accepted, we'll create a new repository under the Dracula organization where you can submit the PR.
+<!--
+If you're fixing a UI issue, make sure you take two screenshots.
+One that shows the actual bug and another that shows how you fixed it.
+-->
 
