@@ -1,0 +1,8 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontSize": 12,
+    "editor.fontFamily": "'DejaVu Sans Mono Book','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "workbench.iconTheme": "vscode-icons",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontFamily": "'Menlo for Powerline','DejaVu Sans Mono Book','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'"
+}
