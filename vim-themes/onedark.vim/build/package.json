@@ -23,7 +23,7 @@
     "husky": "0.14.3"
   },
   "dependencies": {
-    "dot": "1.1.2",
+    "dot": "1.1.3",
     "termcolors": "latest"
   }
 }
